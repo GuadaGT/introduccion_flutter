@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:introduccion_flutter/src/pages/home_page.dart';
+import 'package:introduccion_flutter/src/pages/contador_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: contadorPage(),
     );
   }
 }
